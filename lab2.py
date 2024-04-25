@@ -26,12 +26,12 @@ def calc_min_max_temperature(temp):
     return result
 
 def sort_temperature(list):
-    result = list.sort()
+    result = sorted(list)
     return result
 
 def calc_median_temperature(list):
     print("calc_median_temperature")
-    temp = list.sort()
+    temp = sorted(list)
     if ((len(temp)/2) == int(len(temp)/2)):
         middleindex = (len(temp) / 2)
         median = ((temp[middleindex] + temp[middleindex - 1]) / 2)
