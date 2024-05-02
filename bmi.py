@@ -7,10 +7,10 @@ def bmi_range(bmi):
         return -1
     elif (bmi > 25.0):
         print("over weight")
-        return 0
+        return 1
     else:
         print("normal weight")
-        return 1
+        return 0
 
 def calc_bmi(height, weight):
     print("Height = ", height)
